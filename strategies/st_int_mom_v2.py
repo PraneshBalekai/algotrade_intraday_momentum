@@ -257,7 +257,7 @@ class int_mom(object):
 		self.lo.to_csv('strategies/st_int_mom_data/lo_live.csv')
 
 		return
-
+	'''
 	def add_eod_data_helper(self):
 		from_date = datetime.date(2020,11,11)
 		to_date = datetime.date(2021,6,20)
@@ -307,15 +307,15 @@ class int_mom(object):
 		lo.to_csv('strategies/st_int_mom_data/lo_live.csv')
 
 		return
-
+	'''
 	def start(self):
 		
 		#self.load_data()
 		#self.execute_strategy()
-		self.add_eod_data_helper()
+		#self.add_eod_data_helper()
 		#self.load_data()
 		#self.execute_strategy()
-		return
+		#return
 		'''
 
 		candidates=[]
