@@ -8,8 +8,8 @@
 
 ### FILES
 
-- Initialize kite connect - main.py
-- Historical data - files/*
-- Strategy: strategies/st_int_mom_v2.py
-- Order book: order_book/order_book.py
-- Paper trade book: order_book/paper_trade
+- Initialize kite connect: `main.py`
+- Historical data: `files/*`
+- Strategy: `strategies/st_int_mom_v2.py`
+- Order book: `order_book/order_book.py`
+- Paper trade book: `order_book/paper_trade`
