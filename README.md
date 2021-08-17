@@ -6,6 +6,8 @@
 
 - Login to kite connect from terminal before starting session
 
+```jtrader zerodha startsession```
+
 ### FILES
 
 - Initialize kite connect: `main.py`
