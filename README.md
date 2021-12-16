@@ -2,7 +2,7 @@
 
 ### This project employs one of the intraday trading strategies discussed in Ernest P. Chan's - Algorithmic Trading Winning Strategies and Their Rationale
 
-## ADDITIONS
+## Measuring Liquidity
 Since the stragey involves enterting the trades at market open, the prices are prone to high volatility in the first few minutes. 
 
 I added a module to the strategy to calculate impact cost from order book data (as a measure of liquidity) and take buy/no-buy decision based on it.
