@@ -7,6 +7,8 @@ Since the stragey involves enterting the trades at market open, the prices tend 
 
 I added a module to the strategy to calculate impact cost from order book data (as a measure of liquidity) and take buy/no-buy decision based on it.
 
+As a coincidence, this also helps identify and prevent entering into positions in stocks that have hit lower circuit limits which have zero liquidity. 
+
 ### Set-up
 
 - Login to kite connect from terminal before starting session
